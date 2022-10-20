@@ -15,7 +15,7 @@ public class CashBackServiceTest {
     @Test
     public void Thousand() {
         int amount = 1000;
-        int expected = 1000;
+        int expected = 0;
         CashBackService service = new CashBackService();
         int actual = service.remain(amount);
         assertEquals(expected, actual);
